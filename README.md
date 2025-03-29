@@ -11,3 +11,9 @@ str.swapcase() – returns a new string where all uppercase letters are converte
 str.find() - is a built-in string method that is used to Finds the first occurrence of sub and returns its index. Returns -1 if not found
 
 str.index() - Just like find(),it is used to Finds the first occurrence of sub and returns its index. but it raises an error if sub is not found
+
+str.startswith() is a built-in Python method used to check if a string starts with a specified prefix. It returns True if the string starts with the given prefix; otherwise, it returns False.
+
+str.endswith() is a built-in Python method that checks whether a string ends with a specified suffix. It returns True if the string ends with the given suffix; otherwise, it returns False.
+
+str.count() is a built-in Python method that counts the number of times a substring appears in a given string
