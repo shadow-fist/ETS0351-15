@@ -17,3 +17,12 @@ str.startswith() is a built-in Python method used to check if a string starts wi
 str.endswith() is a built-in Python method that checks whether a string ends with a specified suffix. It returns True if the string ends with the given suffix; otherwise, it returns False.
 
 str.count() is a built-in Python method that counts the number of times a substring appears in a given string
+
+str.replace()
+The .replace(old, new, count) method replaces occurrences of a substring with another substring.
+old: The substring to be replaced.
+new: The substring to replace with.
+count (optional): Number of times to replace (default: all occurrences).
+
+str.strip()
+The .strip() method removes leading and trailing whitespace (or specified characters) from a string.
