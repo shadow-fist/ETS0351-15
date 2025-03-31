@@ -26,3 +26,15 @@ count (optional): Number of times to replace (default: all occurrences).
 
 str.strip()
 The .strip() method removes leading and trailing whitespace (or specified characters) from a string.
+
+str.lstrip()
+The .lstrip() method removes leading whitespace (or specified characters) from the left side of a string.
+
+str.rstrip()
+str.rstrip() method removes trailing whitespace (or specified characters) from the right side of a string.
+
+str.split()
+The .split() method splits a string into a list of substrings based on a specified delimiter. By default, it splits on whitespace.
+
+str.join()
+The .join() method joins elements of an iterable (like a list) into a single string using a specified separator.
