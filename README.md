@@ -38,3 +38,56 @@ The .split() method splits a string into a list of substrings based on a specifi
 
 str.join()
 The .join() method joins elements of an iterable (like a list) into a single string using a specified separator.
+
+str.isalpha()
+This method checks if all characters in the string are alphabetic (letters) and there are no numbers or special characters.
+If the string contains only letters, it returns True; otherwise, it returns False.
+
+str.isalnum()
+This method returns True if all characters in the string are alphanumeric (i.e., only letters and numbers).
+If the string contains spaces, symbols, or is empty, it returns False.
+
+isdigit()  is an example of string methods used in python and it Checks if the string consists of only digits or not. Its output is boolean
+
+str.isspace()
+This method returns True if the string only contains whitespace characters (spaces, tabs, newlines).
+If the string has any non-space characters, it returns False.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
