@@ -53,7 +53,16 @@ str.isspace()
 This method returns True if the string only contains whitespace characters (spaces, tabs, newlines).
 If the string has any non-space characters, it returns False.
 
+str.format()
+This method is used to format strings by inserting values into placeholders {}.
+It allows for dynamic string creation with variables.
 
+f-strings()
+f-strings provide a concise and readable way to format strings in Python.
+Introduced in Python 3.6, f-strings allow embedding expressions inside string literals using {}
+
+len()
+len() returns the number of elements in an object (string, list, tuple, dictionary, etc.).
 
 
 
