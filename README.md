@@ -64,6 +64,16 @@ Introduced in Python 3.6, f-strings allow embedding expressions inside string li
 len()
 len() returns the number of elements in an object (string, list, tuple, dictionary, etc.).
 
+str.encode()
+str.encode() is a built-in Python method used to encode a string into bytes, using a specified encoding (like 'utf-8', 'ascii', etc.).
+
+str.islower()
+This method checks if all the alphabetic characters in a string are lowercase.
+If the string contains at least one letter and all letters are lowercase, it returns True; otherwise, it returns False.
+
+str.isupper()
+This method checks if all the alphabetic characters in a string are uppercase.
+If the string contains at least one letter and all letters are uppercase, it returns True; otherwise, it returns False.
 
 
 
