@@ -1,4 +1,4 @@
 cart = ['milk', 'bread', 'eggs']
 cart.clear()
 
-print(cart)
+print(cart) #the output will be []

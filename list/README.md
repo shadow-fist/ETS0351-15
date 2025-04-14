@@ -27,3 +27,24 @@ clear()
 Removes all elements from the list.
 Leaves you with an empty list.
 Doesn’t delete the list itself — just clears it out.
+
+ index(x[, start[, end]])
+Returns the index of the first occurrence of x.
+Optional start and end to search within a specific slice.
+If x isn't found it will print ValueError.
+
+ count(x)
+Returns the number of times x appears in the list.
+Simple, fast, and to the point — no drama, just digits.
+
+sort(key=None, reverse=False)
+Sorts the list in-place (changes the original list).
+Default is ascending order.
+Use reverse=True for descending.
+Use key= to customize how items are sorted (like by length, value, etc).
+
+ reverse()
+Reverses the order of the list.
+Does not sort — just flips it.
+Modifies the original list in-place.
+
