@@ -48,3 +48,5 @@ Reverses the order of the list.
 Does not sort — just flips it.
 Modifies the original list in-place.
 
+copy()
+It creates a shallow copy of the list
