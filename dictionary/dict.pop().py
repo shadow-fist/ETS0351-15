@@ -5,4 +5,4 @@ print(age)     #the output is going to be 25
 print(person)  #the output is going to be {'name': 'Alex'}
 
 job = person.pop("job", "Not specified")
-print(job)  # 
+print(job)  # since job is not specified it will say it's "not specified"
