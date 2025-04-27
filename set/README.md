@@ -32,3 +32,23 @@ It’s like union() — but it modifies the original set instead of returning a 
 
 intersection_update() is the set equivalent of Keep only the items that appear in all the sets you're comparing.
 
+difference_update()
+It removes all elements from the original set that are also present in another set (or sets).
+
+symmetric_difference_update()
+It updates the original set to keep only elements that are in either one set OR the other, but NOT in both.
+
+issubset()
+issubset() checks if all elements of one set are contained inside another set.
+
+issuperset()
+issuperset() checks if all elements of another set are inside the current set.
+
+isdisjoint()
+isdisjoint() checks if two sets have NO elements in common.
+Returns True if the sets are completely different (no shared elements).
+Returns False if they have even one thing in common.
+
+clear()
+clear() removes all elements from the set.
+After calling it, your set becomes empty: {}.
